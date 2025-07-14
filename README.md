@@ -6,14 +6,14 @@ The VIC-20 is an interesting computer, but has an oddity in that you're limited 
 This board uses a single 32K x 8 SRAM chip and a bank of 6 DIP switches to enable/disable individual banks of memory using the already decoded memory bank enables on the cartridge port:
 
 These represent the 3K expansion cartridge:
-RAM 1 = 0400 - 07FF
-RAM 2 = 0800 - 0BFF
-RAM 3 = 0C00 - 0FFF
+* RAM 1 = 0400 - 07FF
+* RAM 2 = 0800 - 0BFF
+* RAM 3 = 0C00 - 0FFF
 
 These represent the 8, 16, and 24K cartridges:
-Block 1 = 2000 - 3FFF
-Block 2 = 4000 - 5FFF
-Block 3 = 6FFF = 7FFF
+* Block 1 = 2000 - 3FFF
+* Block 2 = 4000 - 5FFF
+* Block 3 = 6FFF = 7FFF
 
 The board uses a few flying wires for the signals it cannot get from the CPU which include the above mention memory bank enables from the cartridge port plus the VR/W signal off the same cartridge port.
 
@@ -28,11 +28,11 @@ Inputs are labeled on the bottom silk screen. DIP switch info is on the top silk
 The cartridge pins for connections are easy to access and are on the upper set so no need to try to get to the bottom row for attaching the wires.
 
 Cartridge slot pin: Signal Name
-10 - Block 1
-11 - Block 2
-12 - Block 3
-13 - Block 5 (NOT USED)
-14 - RAM 1
-15 - RAM 2
-16 - RAM 3
-17 - VR/W
+* 10 - Block 1
+* 11 - Block 2
+* 12 - Block 3
+* 13 - Block 5 (NOT USED)
+* 14 - RAM 1
+* 15 - RAM 2
+* 16 - RAM 3
+* 17 - VR/W
