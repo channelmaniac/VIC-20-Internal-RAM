@@ -1,0 +1,15 @@
+This is a greatly simplified BoM without part numbers as I had these parts either laying around the shop, picked up by the bin from a local source for dirt cheap pricing, or were salvaged off another PCB (the RAM and GAL chip.)
+
+2 - 40 pin dual wipe sockets
+2 - 20 pin double-ended machine pin header strips (To mount PCB into the CPU socket on the VIC-20)
+1 - 20 pin dual wipe socket
+1 - GAL16V8 chip in DIP packaging (can be pulled off another PCB, erased, and reused.)
+1 - 32K x 8 SRAM in SOJ surface mount packaging. Anything from 55 to 200ns will work fine. Faster may not. Avoid cache RAMs because of this.
+1 - 6 position DIP switch
+1 - 2.2 through 10K 7-pin bussed resistor SIP. (6x resistors with 1 common pin)
+3 - .1uf @16v (a.k.a. 104 or 100nf) capacitor. Monolithic is cheap and fine for this.
+1 - 10uf @16v radial electrolytic. Bend over and lay it against the PCB to ensure keyboard clearance.1 - 7 pin right angle header
+7 - wires with .100 header sockets to slide onto the header pins. Any common jumper wires for Arduino and other breadboard use is fine here.
+
+
+You'll only need one 40-pin DIP socket for the finished build. The second one is so you can seat the 20 pin header strips into so they can easily be soldered into the PCB to where they plug into the CPU socket on the VIC-20 without binding or bending pins. You can use caps of higher voltage ratings as long as the physically fit onto the PCB laying down.
