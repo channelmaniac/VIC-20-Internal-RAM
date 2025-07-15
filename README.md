@@ -1,7 +1,7 @@
 # VIC-20-Internal-RAM
 An internal RAM expansion board for the VIC-20.
 
-The VIC-20 is an interesting computer, but has an oddity in that you're limited to one cartridge at a time... Do you use memory? Do you use soem other hardware interface? I thought it was a bit silly so I created an internal memory upgrade board. I also did this as a learning experience as this is my first GAL to design the equations for. 
+The VIC-20 is an interesting computer, but has an oddity in that you're limited to one cartridge at a time... Do you use memory? Do you use some other hardware interface? I thought it was a bit silly so I created an internal memory upgrade board. I also did this as a learning experience as this is my first GAL to design the equations for. 
 
 ![VIC-20 PCB with internal RAM module installed](https://github.com/channelmaniac/VIC-20-Internal-RAM/blob/main/Installed.jpg)
 
@@ -15,7 +15,7 @@ These represent the 3K expansion cartridge:
 These represent the 8, 16, and 24K cartridges:
 * Block 1 = 2000 - 3FFF
 * Block 2 = 4000 - 5FFF
-* Block 3 = 6FFF = 7FFF
+* Block 3 = 6000 = 7FFF
 
 The board uses a few flying wires for the signals it cannot get from the CPU which include the above mention memory bank enables from the cartridge port plus the VR/W signal off the same cartridge port.
 
